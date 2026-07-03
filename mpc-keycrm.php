@@ -49,7 +49,12 @@ add_action(
 			add_action(
 				'admin_notices',
 				static function () {
-					echo '<div class="notice notice-error"><p>' . esc_html__( 'MPC KeyCRM Source requires the Multi PRRO Connector plugin to be installed and active.', 'mpc-keycrm' ) . '</p></div>';
+					printf(
+						'<div class="notice notice-error"><p>%s <a href="%s" target="_blank" rel="noopener">%s</a></p></div>',
+						esc_html__( 'MPC KeyCRM Source requires the Multi PRRO Connector plugin to be installed and active.', 'mpc-keycrm' ),
+						esc_url( 'https://catcode.com.ua/modules/multi-prro-connector/' ),
+						esc_html__( 'Download Multi PRRO Connector', 'mpc-keycrm' )
+					);
 				}
 			);
 			return;

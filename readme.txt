@@ -13,7 +13,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Опис ==
 
-KeyCRM агрегує замовлення з маркетплейсів (Rozetka, Prom), соцмереж (Instagram, Facebook) та власних сайтів. Цей аддон замикає ланцюжок: він тягне оплачені замовлення з KeyCRM Open API і пробиває фіскальні чеки через ПРРО-сервіси, підключені у плагіні **Multi PRRO Connector** (Вчасно.Каса, Checkbox).
+KeyCRM агрегує замовлення з маркетплейсів (Rozetka, Prom), соцмереж (Instagram, Facebook) та власних сайтів. Цей аддон замикає ланцюжок: він тягне оплачені замовлення з KeyCRM Open API і пробиває фіскальні чеки через ПРРО-сервіси, підключені у плагіні [Multi PRRO Connector](https://catcode.com.ua/modules/multi-prro-connector/) (Вчасно.Каса, Checkbox).
 
 Fiscalization addon for Multi PRRO Connector: pulls paid orders from KeyCRM (an order hub for Rozetka, Prom, Instagram and custom websites) and issues fiscal receipts through the PRRO providers configured in the base plugin.
 
@@ -32,7 +32,7 @@ Fiscalization addon for Multi PRRO Connector: pulls paid orders from KeyCRM (an 
 
 = Вимоги =
 
-* Активний плагін **Multi PRRO Connector** з налаштованим основним ПРРО-сервісом і відкритою зміною
+* Активний плагін [Multi PRRO Connector](https://catcode.com.ua/modules/multi-prro-connector/) з налаштованим основним ПРРО-сервісом і відкритою зміною
 * API-ключ KeyCRM (кабінет KeyCRM → Налаштування → API)
 * PHP 7.4+ (базовий плагін вимагає PHP 8.0)
 
@@ -46,7 +46,7 @@ Fiscalization addon for Multi PRRO Connector: pulls paid orders from KeyCRM (an 
 
 == Встановлення ==
 
-1. Встановити й налаштувати Multi PRRO Connector (основний ПРРО-сервіс, «Перевірити звʼязок» = OK)
+1. Встановити й налаштувати [Multi PRRO Connector](https://catcode.com.ua/modules/multi-prro-connector/) (основний ПРРО-сервіс, «Перевірити звʼязок» = OK)
 2. Залити папку аддона у `/wp-content/plugins/mpc-keycrm/` і активувати
 3. Меню «Каса → KeyCRM» → ввести API-ключ KeyCRM → Зберегти
 4. Натиснути «Завантажити статуси» і вибрати тригер (усі оплачені або конкретні статуси)
