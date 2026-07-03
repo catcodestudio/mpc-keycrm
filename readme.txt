@@ -13,6 +13,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Опис ==
 
+**MERGED:** this addon is now built into [Multi PRRO Connector](https://catcode.com.ua/modules/multi-prro-connector/) since version 0.5.0 (menu «Каса → KeyCRM»). This repository is kept for history only.
+
+
+
 KeyCRM агрегує замовлення з маркетплейсів (Rozetka, Prom), соцмереж (Instagram, Facebook) та власних сайтів. Цей аддон замикає ланцюжок: він тягне оплачені замовлення з KeyCRM Open API і пробиває фіскальні чеки через ПРРО-сервіси, підключені у плагіні [Multi PRRO Connector](https://catcode.com.ua/modules/multi-prro-connector/) (Вчасно.Каса, Checkbox).
 
 Fiscalization addon for Multi PRRO Connector: pulls paid orders from KeyCRM (an order hub for Rozetka, Prom, Instagram and custom websites) and issues fiscal receipts through the PRRO providers configured in the base plugin.
