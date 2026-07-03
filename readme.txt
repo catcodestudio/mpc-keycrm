@@ -1,8 +1,8 @@
 === MPC KeyCRM Source ===
-Contributors: catcode
+Contributors: catcodestudio
 Tags: keycrm, fiscalization, prro, vchasno, checkbox
 Requires at least: 6.4
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
 Requires Plugins: multi-prro-connector
 Stable tag: 0.1.0
